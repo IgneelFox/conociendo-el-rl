@@ -53,10 +53,8 @@ for i in range(episodios):
         s = prox_s
         if done == True:
             break
-#print("Tabla Q:")
-#print(tabla_Q)
-
-
+print("Tabla Q:")
+print(tabla_Q)
 print("salida despues del aprendizaje")
 #verifiquemos cuánto ha aprendido nuestro agente
 s = env.reset()
